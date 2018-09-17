@@ -108,10 +108,13 @@
                     <div id="msg" style="color: red;">&nbsp</div>
                 </tr>
                 <tr>
-                    <td>username:<input type="text" style="width: 200px;height:30px " name="username"></td>
+                    <td>username: <input type="text" style="width: 200px;height:30px " name="username"></td>
                 </tr>
                 <tr>
-                    <td>password:<input type="password" style="width: 200px;height: 30px" name="password"></td>
+                    <td>password: <input type="password" style="width: 200px;height: 30px" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="remember" value="remember" >自动登录</td>
                 </tr>
                 <tr>
                     <td align="center"><input formmethod="post" type="submit" style="cursor: pointer;font-style: inherit;" name="submit" onclick="return checkAndAlert();" value="登录">
